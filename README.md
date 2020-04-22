@@ -8,10 +8,10 @@
 
 CodeIgniter 3 PHPUnit Test extension library
 
-[![Latest Stable Version](https://poser.pugx.org/yidas/codeigniter-phpunit/v/stable?format=flat-square)](https://packagist.org/packages/yidas/codeigniter-phpunit)
-[![License](https://poser.pugx.org/yidas/codeigniter-phpunit/license?format=flat-square)](https://packagist.org/packages/yidas/codeigniter-phpunit)
+[![Latest Stable Version](https://poser.pugx.org/nueip/codeigniter-phpunit/v/stable?format=flat-square)](https://packagist.org/packages/nueip/codeigniter-phpunit)
+[![License](https://poser.pugx.org/nueip/codeigniter-phpunit/license?format=flat-square)](https://packagist.org/packages/nueip/codeigniter-phpunit)
 
-This RESTful API extension is collected into [yidas/codeigniter-pack](https://github.com/yidas/codeigniter-pack) which is a complete solution for Codeigniter framework.
+This RESTful API extension is collected into [nueip/codeigniter-pack](https://github.com/nueip/codeigniter-pack) which is a complete solution for Codeigniter framework.
 
 FEATURES
 --------
@@ -25,12 +25,14 @@ FEATURES
 OUTLINE
 -------
 
-- [Requirements](#requirements)
-- [Installation](#installation)
-- [Directory Structure](#directory-structure)
-- [Configuration](#configuration)
-- [Usage](#usage)
-- [Test Case](#test-case)
+- [FEATURES](#features)
+- [OUTLINE](#outline)
+- [REQUIREMENTS](#requirements)
+- [INSTALLATION](#installation)
+- [DIRECTORY STRUCTURE](#directory-structure)
+- [CONFIGURATION](#configuration)
+- [USAGE](#usage)
+- [TEST CASE](#test-case)
 
 
 REQUIREMENTS
@@ -48,7 +50,7 @@ INSTALLATION
 
 Run Composer in your Codeigniter project under the folder `\application`:
 
-    composer require yidas/codeigniter-phpunit
+    composer require nueip/codeigniter-phpunit
 
 ---
 
@@ -59,7 +61,7 @@ DIRECTORY STRUCTURE
 codeigniter/
 └── application/
     ├── tests/          Test cases
-    ├── vendor/         Vendor included yidas/codeigniter-phpunit
+    ├── vendor/         Vendor included nueip/codeigniter-phpunit
     └── phpunit.xml     PHPUnit XML
 ```
 
@@ -72,7 +74,7 @@ According to [Directory Structure](#directory-structure), create and configure `
 
 ```xml
 <?xml version="1.0" encoding="UTF-8" ?>
-<phpunit bootstrap="vendor/yidas/codeigniter-phpunit/bootstrap.php">
+<phpunit bootstrap="vendor/nueip/codeigniter-phpunit/bootstrap.php">
   <testsuites>
     <testsuite name="TestSuite">
       <directory>tests</directory>

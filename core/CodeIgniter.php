@@ -1,8 +1,8 @@
 <?php
 /**
- * yidas/codeigniter-phpunit
+ * nueip/codeigniter-phpunit
  * 
- * @see https://github.com/yidas/codeigniter-phpunit
+ * @see https://github.com/nueip/codeigniter-phpunit
  * 
  * Modifications:
  * Line 447: Force cancel 404 check
